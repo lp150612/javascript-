@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+	padding:0px;
+}
+body{
+	background:#404040;
+	
+}
+#box{
+	width:1000px;
+	overflow:hidden;
+	margin:0 auto;	
+}
+#div1{
+	width:40%;
+	/*height:1350px;*/
+	margin-bottom: -10000px;
+    padding-bottom: 10000px;
+	background:#22C3AA;
+	float:left;	
+}
+#照片 img{
+	display:block;
+	margin:40px auto;
+}
+#姓名 {
+	text-align:center;
+	font-size:60px;
+	color:white;
+	font-weight:bold;
+	font-family:"楷体","Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	margin:10px auto 80px auto;
+}
+#进度条{
+	margin:auto 40px 65px;
+	height:200px;
+	position:relative;
+}
+#进度条 .图表{
+	display:inline;
+	font-size:20px;
+	color:white;
+}
+progress {
+    width: 160px;
+    border: 1px solid #0064B4;  
+    background-color:white;
+	position:absolute;
+	left:80px;
+    color: #0064B4; /*IE10*/
+	border-radius:10px;
+	
+}
+progress::-moz-progress-bar { background: #0064B4; }
+progress::-webkit-progress-bar { background: #e6e6e6; }
+progress::-webkit-progress-value  { background: #0064B4; }
+
+#个人介绍{
+	margin-top:100px;
+}
+#个人介绍 p{
+	
+	font-size:25px;
+	color:rgb(97,97,97);
+	font-weight:bold;
+	font-family:"楷体","Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	
+	margin:5px 40px 20px ;
+}
+#联系方式{
+	margin:90px 40px ;
+	
+}
+ul{
+	
+	list-style-type:none;
+	
+}
+
+ul li.qq{ background-image:url(image/qq.png);background-repeat:no-repeat;background-position:left;}
+ul li.邮箱{ background-image:url(image/邮箱.png);background-repeat:no-repeat;background-position:left;}
+ul li.电话{ background-image:url(image/电话.jpg);background-repeat:no-repeat;background-position:left;}
+ul li p{font-size:20px;color:white;margin: auto 40px;}
+#div2{
+	width:59%;
+	/*height:1350px;*/
+	
+	margin-bottom: -10000px;
+    padding-bottom: 10000px;
+	background:lightyellow;
+	float:left;
+	
+}
+#div2 .主框架{
+	margin:auto 20px;
+	position:relative;
+}
+.header{
+	font-size:30px;
+	color:#22c3aa;
+	font-family:"黑体";
+	font-weight:bold;
+	margin-top:30px;
+}
+.h1{
+	font-size:20px;
+	color:rgb(0,0,0);
+	font-family:"Arial","Microsoft YaHei","宋体",sans-serif;
+	line-height:50px;
+	
+	
+}
+.h2{
+	font-size:16px;
+	color:rgba(0,0,0,0.9);
+	font-family:"宋体","Arial","Microsoft YaHei","黑体",sans-serif;
+	line-height:15px;
+}
+
+.tubiao{
+	background:#22C3AA;
+	border-radius:10px;
+	display:inline-block;
+	width:80px;
+	height:20px;
+	text-align:center;
+	color:white;
+	font-size:16px;
+	margin:0px 30px 0px 0px;
+	
+}
+
+
+
+
+
+
+
+
+
+
